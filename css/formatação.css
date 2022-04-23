@@ -3,8 +3,10 @@
     display: inline-flex;
     flex-direction: row;
 }
-    .subtitulo{
-    font-style: italic; color: blue; 
+
+.subtitulo{
+    color: blue; 
     display: inline-flex; 
     flex-direction: column;
-    } 
+    font-size: 30px;
+} 
