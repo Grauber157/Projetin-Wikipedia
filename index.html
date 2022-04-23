@@ -6,47 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto-Wikipedia</title> 
     <style type="text/css">
-        .titulo{
-            font-size: 50px;
+             .titulo{
+            font-size: 50px; 
+            display: inline-flex;
+            flex-direction: row;
         }
         .subtitulo{
             font-style: italic; color: blue; 
+            display: inline-flex; 
+            flex-direction: column;
         }
     </style>
 
 </head>
 <body>
 
-    <table border="0">
-        <tr>
-            <th><img src="img/Wikipedia_logo.png" alt="Wikipedia_logo" height="300" width="300"></th>
-            <th colspan="2"><p><center><h1 class="titulo">Wikipedia Verdadeira</h1></center></p></th>
-        </tr>
-    </table> 
+    <div class="titulo">
+        <img src="img/Wikipedia_logo.png" alt="Wikipedia_logo" height="300" width="300">
+        <p><center><h1 class="titulo">Wikipedia Verdadeira</h1></center></p>
+    </div>
 
     <div class="subtitulo"> 
-
-    <table> 
-    <ul>
-        <tr>
-            <td><h2><a href=""><li>Forum</li></a></h2></td>
-        </tr>
-        <tr>
-            <td><h2><a href=""><li>Discussões</li></a></h2></td>
-        </tr>
-        <tr>
-            <td><h2><a href="https://pt.wikipedia.org/wiki/Wikip%C3%A9dia:P%C3%A1gina_principal"><li>Wikipedia Falsa</li></a></h2></td>
-        </tr>
-        <tr>
-            <td></td>
-        </tr>
-        <tr>
-            <td></td>
-        </tr>
-    </ul>
-    </table>
-
-     </div> 
+        <h2><a href=""><li>Forum</li></a></h2>
+        <h2><a href=""><li>Discussões</li></a></h2>
+        <h2><a href="https://pt.wikipedia.org/wiki/Wikip%C3%A9dia:P%C3%A1gina_principal"><li>Wikipedia Falsa</li></a></h2>
+    </div> 
 
 </body>
 </html>
