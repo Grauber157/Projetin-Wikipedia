@@ -1,3 +1,10 @@
-body{
-    background-color:;
+.titulo{
+    font-size: 50px; 
+    display: inline-flex;
+    flex-direction: row;
 }
+    .subtitulo{
+    font-style: italic; color: blue; 
+    display: inline-flex; 
+    flex-direction: column;
+    } 
