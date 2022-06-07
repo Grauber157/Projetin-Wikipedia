@@ -1,12 +1,25 @@
-.titulo{
-    font-size: 50px; 
-    display: inline-flex;
-    flex-direction: row;
+body {
+    background-color: ;
 }
 
-.subtitulo{
-    color: blue; 
-    display: inline-flex; 
-    flex-direction: column;
-    font-size: 30px;
-} 
+header {
+    width: auto;
+    height: auto;
+    background-color: gray;
+}
+
+#figure {
+    display: inline-block;
+    margin: 10px;
+
+}
+
+header h1 {
+    margin-left: 20px;
+    display: inline-block;
+    text-align: left;
+    font-size: 70px;
+}
+
+git config --global user.email "exemplo@aluno.ifsp.edu.br"
+git config --global user.name "dhawdhas"
