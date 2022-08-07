@@ -1,11 +1,12 @@
 body {
-    background-color: ;
+    background-color: gray;
 }
 
 header {
     width: 100%;
     height: auto;
-    background-color: gray;
+    float: left;
+    background-color: rgb(61, 61, 61);
 }
 
 #figure {
@@ -21,3 +22,21 @@ header h1 {
     font-size: 70px;
 }
 
+aside {
+    width: 20%;
+    height: 200px;
+    float: left;
+    margin-top: 10px;
+    font-size: 30px;
+    background-color: rgb(61, 61, 61);
+}
+
+main {
+    width: 70%;
+    height: 70%;
+    float: left;
+    background-color: rgb(61, 61, 61);
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
