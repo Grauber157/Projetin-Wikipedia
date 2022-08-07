@@ -7,26 +7,29 @@ header {
     height: auto;
     float: left;
     background-color: rgb(61, 61, 61);
+    padding: 10px;
 }
 
 #figure {
     display: inline-block;
     margin: 10px;
+    float: left;
 
 }
 
 header h1 {
     margin-left: 20px;
     display: inline-block;
+    float: left;
     text-align: left;
     font-size: 70px;
 }
 
 aside {
-    width: 20%;
-    height: 200px;
+    width: 18%;
+    height: 800px;
     float: left;
-    margin-top: 10px;
+    margin-top: 25px;
     font-size: 30px;
     background-color: rgb(61, 61, 61);
 }
@@ -37,6 +40,6 @@ main {
     float: left;
     background-color: rgb(61, 61, 61);
     padding: 10px;
-    margin-top: 10px;
+    margin-top: 25px;
     margin-left: 20px;
 }
