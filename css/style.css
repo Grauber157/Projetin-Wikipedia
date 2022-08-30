@@ -1,13 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
 body {
     background-color: gray;
 }
 
 header {
-    width: 100%;
+    width: 98%;
     height: auto;
     float: left;
     background-color: rgb(61, 61, 61);
-    padding: 10px;
+    border-radius: 5px;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-bottom: 1%;
 }
 
 #figure {
@@ -38,21 +47,129 @@ header h1 {
     font-size: 70px;
 }
 
+#figure {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+#figure_github {
+    width: 100px;
+    height: 100px;
+    float: right;
+    margin-top: 70px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease; 
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
+}
+
+#figure_github:hover {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+    transition: scale(1.3);
+
+}
+
 aside {
     width: 18%;
     height: 800px;
     float: left;
-    margin-top: 25px;
+    margin-top: 2%;
+    margin-left: 1%;
     font-size: 30px;
     background-color: rgb(61, 61, 61);
+    border-radius: 5px;
 }
 
 main {
-    width: 70%;
+    width: 76%;
     height: 70%;
     float: left;
+    padding: 1%;
     background-color: rgb(61, 61, 61);
-    padding: 10px;
-    margin-top: 25px;
-    margin-left: 20px;
+    margin-top: 2%;
+    margin-left: 2%;
+    border-radius: 5px;
+}
+
+    /**RESOLUÇÃO PORCARIA**/
+@media (max-width: 575px){
+    header{
+        background-color: rgb(61, 61, 61);
+    }
+
+    header h1{
+        font-size: 30px;
+        float: left;
+        margin-left: 0px;
+        margin-top: 30px;
+        font-size: 25px;
+
+    }
+
+    #figure{
+        width: 70px;
+        height: 70px;
+    }
+
+    #figure_github{
+        margin-top: 20px;
+
+    }
+
+    aside{
+        width: 98%;
+        height: auto;
+        clear: left;
+        margin-top: 1%;
+        font-size: 20px;
+    }
+
+    main{
+        width: 94%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+}
+
+    /**RESOLUÇÃO INTERESSANTE ENVOLVENTE**/
+@media (min-width: 576px){
+    header{
+        background-color: rgb(61, 61, 61);
+
+    }
+
+    header h1{
+        margin-left: 10px;
+        font-size: 40px;
+
+    }
+
+    #figure{
+        width: 100px;
+        height: 100px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    #figure_github{
+        margin-top: 20px;
+    }
+}
+    /**RESOLUÇÃO DECENTE**/
+@media (min-width: 768px){
+    header{
+        background-color: rgb(61, 61, 61);
+
+    }
+
+}
+    /**RESOLUÇÃO DE BURGUÊS**/
+@media (min-width: 992px){
+
+
 }
