@@ -9,14 +9,14 @@ body {
 }
 
 header {
-    width: 98%;
+    width: 99%;
     height: auto;
     float: left;
     background-color: rgb(61, 61, 61);
     border-radius: 5px;
-    margin-top: 1%;
-    margin-left: 1%;
-    margin-bottom: 1%;
+    margin-top: 0.5%;
+    margin-left: 0.5%;
+    margin-bottom: 0.5%;
 }
 
 #titulo {
@@ -78,18 +78,19 @@ header h1 {
 }
 
 aside {
-    width: 15%;
+    width: 14%;
     height: 800px;
     float: left;
     padding: 1%;
     margin-top: 2%;
-    margin-left: 1%;
+    margin-left: 0.5%;
     font-size: 25px;
     background-color: rgb(61, 61, 61);
     border-radius: 5px;
 }
 
-main {
+/*main1*/
+#apresentacao {
     width: 77%;
     height: 70%;
     float: left;
@@ -99,6 +100,39 @@ main {
     margin-left: 2%;
     border-radius: 5px;
 }
+
+#tituloh2 {
+    width: fit-content;
+    height: fit-content;
+    margin-top: 2%;
+    margin-left: 2%;
+    padding: 1%;
+    border-radius: 5px;
+    background-color: rgb(61, 61, 61);
+    float: left;
+}
+
+/*main2*/
+#artigo {
+    width: 77%;
+    height: 70%;
+    float: left;
+    padding: 1%;
+    background-color: rgb(61, 61, 61);
+    margin-top: 1%;
+    margin-left: 2%;
+    border-radius: 5px;
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(61, 61, 61);
+    float: left;
+    margin-top: 2%;
+}
+
+
 
     /**RESOLUÇÃO PORCARIA**/
 @media (max-width: 575px){
@@ -144,7 +178,6 @@ main {
     }
 
 }
-
     /**RESOLUÇÃO INTERESSANTE ENVOLVENTE**/
 @media (min-width: 576px){
     header{
