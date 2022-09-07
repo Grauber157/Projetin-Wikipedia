@@ -32,16 +32,33 @@ header {
     float: left;
 }
 
-#figure_github {
-    width: 100px;
-    height: 100px;
+#figure_github_user {
+    width: 80px;
+    height: 80px;
     float: right;
-    margin-top: 70px;
-    -webkit-transition: all 0.7s ease;
-    transition: all 0.7s ease;
+    position: relative;
+    border-radius: 50px;
+    margin-top: 20px;
+    visibility: hidden;
+}
+
+#figure_github_user:hover {
+    
+}
+
+#figure_github {
+    width: 80px;
+    height: 80px;
+    float: right;
+    position: static;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 #figure_github:hover {
+    visibility: hidden;
     -webkit-transform: scale(1.3);
     transition: scale(1.3);
 }
@@ -60,21 +77,6 @@ header h1 {
     margin-left: 10px;
     margin-bottom: 10px;
     float: left;
-}
-
-#figure_github {
-    width: 100px;
-    height: 100px;
-    float: right;
-    margin-top: 70px;
-    -webkit-transition: all 0.2s ease;
-    transition: all 0.2s ease;
-}
-
-#figure_github:hover {
-    -webkit-transform: scale(1.3);
-    transform: scale(1.3);
-
 }
 
 aside {
@@ -179,7 +181,7 @@ footer{
 
 }
     /**RESOLUÇÃO INTERESSANTE ENVOLVENTE**/
-@media (min-width: 576px){
+@media (min-width: 576px, max-width: 767px){
     header{
         background-color: rgb(61, 61, 61);
 
