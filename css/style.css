@@ -172,6 +172,7 @@ footer{
 @media (max-width: 575px){
     header{
         background-color: rgb(61, 61, 61);
+        
     }
 
     #titulo{
